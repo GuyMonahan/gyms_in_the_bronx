@@ -1,0 +1,10 @@
+The code here, when previewed, has some print statements that naturally make reading this table a bit unwheely at the moment. And unfortunately I didn't have enough time to totally
+fix it after realize this problem.
+
+When I went back to fix this I must have accidentally done something that prevents the code from executing the same way. So thankfully the GitHub shows my working code. 
+
+I figure to spend further time improving and cleaning this code as there are some practice sites in it that I use to check my code, 
+but now realize in retrospect ought to be another file.
+
+Again sorry for the wall of text from the business_id's and the reviews, I had a lot of problems making sure that it collected them without errors without the print statements to 
+help me isolate where the issues were.
