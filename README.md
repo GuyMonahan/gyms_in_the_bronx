@@ -44,5 +44,13 @@ Using web scraping techniques we are able to get population data, broken down by
 
 Going further we can take the data from our reviews table and create a score of sorts that will combine population, the average business rating in that zip code, and allow them to be weighted to the interests of a prospective Coffee Shop owner. This further helps to pair down the information that adds more insight to the decision of which zip code to build a coffee shop.
 
+![](coffee_shop/images/written_formula.png)
+
 ![](coffee_shop/images/edited_final_code.png)
 
+
+Here is a link to our presentation:
+https://docs.google.com/presentation/d/1uYLp9xI4ixXBdMgJkdyNImKlLVqzdyn9JjTTtsEWENY/edit#slide=id.gaad49ec1d2_0_37
+
+In collaboration with:
+Ivan Zakharchuk
