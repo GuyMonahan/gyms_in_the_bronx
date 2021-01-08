@@ -64,3 +64,5 @@ https://docs.google.com/presentation/d/1uYLp9xI4ixXBdMgJkdyNImKlLVqzdyn9JjTTtsEW
 In collaboration with:
 Ivan Zakharchuk
 GitHub - https://github.com/vanitoz
+Guy Monahan
+GitHub - https://github.com/GuyMonahan
