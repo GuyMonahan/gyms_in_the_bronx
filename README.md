@@ -6,6 +6,8 @@ This program is a designed to help prospective shop owners find a location that 
 
 # Business Question:
 
+![](coffee_shop/images/USAMAP.png)
+
 Opening a store is a daunting endeavor. Opening a coffee shop in New York City has potential for being very lucrative, but there is a lot of competition vying for the millions of potential customers. Location is especially important since New Yorkers are both pretty picky, and want convenience. The business question we figure to answer with this program is to find areas of opportunity by using data science. More specifically our aim is to find places where there are plenty of possible customers and less competition.
 
 # Repository Structure
@@ -26,17 +28,19 @@ All of the databases and pictures are stored in the /data folder
 
 By creating a map and placing a mark where each business is located one can better glean the distribution of coffee shops in the two boroughs. With the vast majority populating close to parks and rivers where the more affluent live.
 
-
+![](coffee_shop/images/DENSITY_MAP.png)
 
 
 The map itself doesn't give explicit data that we can use when it comes to understanding the geological implications, but it helps to point us in the right direction. We see that Brooklyn seems to have more markers and so we use our data and count the number of shops in each borough.
 
-
+![](coffee_shop/images/BQ_BAR.png)
 
 
 A short glance at the bar chart shows that Brooklyn has about twice as many coffee shops as Queens. Both boroughs are density populated, yet Queens has more upside when it comes to avoiding competition from other coffee shops compared to Brooklyn.
 
 Using web scraping techniques we are able to get population data, broken down by zip code, for all Queens residents. This allows us a new angle to approach our analysis. By combining our retrieved data from the Yelp API and applying specific columns to the census data we are able to produce a bar chart that shows Population per Coffee Shop within each Zip Code in Queens. The greater the population in a zip code, the fewer competing coffee shops are vying for the same customers.
+
+![](coffee_shop/images/COUNT_BY_ZIP.png)
 
 Going further we can take the data from our reviews table and create a score of sorts that will combine population, the average business rating in that zip code, and allow them to be weighted to the interests of a prospective Coffee Shop owner. This further helps to pair down the information that adds more insight to the decision of which zip code to build a coffee shop.
 
