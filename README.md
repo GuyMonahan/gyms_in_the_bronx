@@ -30,7 +30,7 @@ By creating a map and placing a mark where each business is located one can bett
 
 ![](coffee_shop/images/DENSITY_MAP.png)
 
-## Visualizing exact differances - Brooklyn and Queens
+## Visualizing exact differences - Brooklyn and Queens
 
 The map itself doesn't give explicit data that we can use when it comes to understanding the geological implications, but it helps to point us in the right direction. We see that Brooklyn seems to have more markers and so we use our data and count the number of shops in each borough.
 
