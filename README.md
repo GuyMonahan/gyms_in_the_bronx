@@ -62,7 +62,10 @@ Here is a link to our presentation:
 https://docs.google.com/presentation/d/1uYLp9xI4ixXBdMgJkdyNImKlLVqzdyn9JjTTtsEWENY/edit#slide=id.gaad49ec1d2_0_37
 
 In collaboration with:
+
 Ivan Zakharchuk
 GitHub - https://github.com/vanitoz
+
+
 Guy Monahan
 GitHub - https://github.com/GuyMonahan
