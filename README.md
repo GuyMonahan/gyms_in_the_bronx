@@ -51,6 +51,8 @@ Going further we can take the data from our reviews table and create a score of 
 
 ![](coffee_shop/images/written_formula.png)
 
+This further helps to pair down the information that adds more insight to the decision of which zip code to build a coffee shop. Based on a set factors - weight population = 0.8 and weight rating = 0.2 our scored data came up as following table: 
+
 ![](coffee_shop/images/edited_final_code.png)
 
 ## Summary 
