@@ -30,6 +30,7 @@ By creating a map and placing a mark where each business is located one can bett
 
 ![](coffee_shop/images/DENSITY_MAP.png)
 
+# Visualizing exact differances - Brooklyn and Queens
 
 The map itself doesn't give explicit data that we can use when it comes to understanding the geological implications, but it helps to point us in the right direction. We see that Brooklyn seems to have more markers and so we use our data and count the number of shops in each borough.
 
@@ -38,9 +39,13 @@ The map itself doesn't give explicit data that we can use when it comes to under
 
 A short glance at the bar chart shows that Brooklyn has about twice as many coffee shops as Queens. Both boroughs are density populated, yet Queens has more upside when it comes to avoiding competition from other coffee shops compared to Brooklyn.
 
+# Looking for Population per Coffee Shop in each zip code in Queens
+
 Using web scraping techniques we are able to get population data, broken down by zip code, for all Queens residents. This allows us a new angle to approach our analysis. By combining our retrieved data from the Yelp API and applying specific columns to the census data we are able to produce a bar chart that shows Population per Coffee Shop within each Zip Code in Queens. The greater the population in a zip code, the fewer competing coffee shops are vying for the same customers.
 
 ![](coffee_shop/images/COUNT_BY_ZIP.png)
+
+# Further analyzing with a specific equation
 
 Going further we can take the data from our reviews table and create a score of sorts that will combine population, the average business rating in that zip code, and allow them to be weighted to the interests of a prospective Coffee Shop owner. This further helps to pair down the information that adds more insight to the decision of which zip code to build a coffee shop.
 
